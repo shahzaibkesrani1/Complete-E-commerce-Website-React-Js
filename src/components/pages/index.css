@@ -1,0 +1,19 @@
+
+.animated-div {
+    animation: myAnimation 3s infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-30px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
